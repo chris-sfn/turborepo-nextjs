@@ -10,16 +10,23 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "start": "turbo run start",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
     "eslint-config-custom": "workspace:*",
+    "postcss": "^8.4.21",
     "prettier": "latest",
-    "turbo": "latest"
+    "tailwindcss": "^3.2.7",
+    "turbo": "latest",
+    "web": "^0.0.2"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sass": "^1.58.3"
+  },
   "packageManager": "pnpm@7.29.0"
 }
